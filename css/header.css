@@ -1,0 +1,19 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: end;
+  margin-top: 40px;
+}
+
+.header-menu li {
+  font-size: 1.125rem;
+  color: #141414;
+  font-weight: 400;
+}

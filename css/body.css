@@ -1,0 +1,104 @@
+/* Introductio */
+
+.introduction {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 140px;
+}
+
+.introduciton-profile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  place-self: center;
+  gap: 30px;
+  position: relative;
+}
+
+.profile-detail {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: -1;
+}
+
+.profile-title {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.profile-location {
+  font-size: 1.5rem;
+  color: #525252;
+}
+
+
+/* Experience */
+
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 100px;
+  gap: 106px;
+}
+
+.experience-title {
+  font-size: 9rem;
+  color: #e0e0e0;
+  font-weight: bold;
+  text-transform: uppercase;
+  word-break: break-all;
+  text-align: top;
+  text-justify: left;
+}
+
+.experience-description {
+  display: grid;
+  align-items: center;
+}
+
+.experience-description-resume {
+  font-size: 1.5rem;
+}
+
+.experience-description-topics {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.experience-description-topics-year {
+  font-size: 0.875rem;
+  color: #525252;
+}
+
+.experience-description-topics-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 75px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.experience-description-topics-title,
+.experience-description-topics-resp {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.content-hab {
+  display: flex;
+  flex-wrap: wrap;
+  place-self: start;
+  gap: 10px;
+  color: #fff;
+
+}
+
+.content-hab-2 {
+  font-size: 0.875rem;
+  padding: 5px;
+  background-color: #fff;
+}
