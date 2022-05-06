@@ -1,0 +1,30 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
+/* General Definitions */
+
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  display: grid;
+}
+
+.pageLayout {
+  display: grid;
+  grid-template-rows: 3fr 2fr 1fr;
+  max-width: 100vw;
+}
+
+.pageLayoutBlack {
+  background-color: black;
+}
+
+.pageLayoutWhite {
+  background-color: green;
+}
+
+/* header */
+
+/* page contente */
+
+/* footer */
