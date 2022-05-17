@@ -11,3 +11,9 @@
 body {
   font-family: 'Fira Sans', sans-serif;
 }
+
+.container-full {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  margin: 40px;
+}

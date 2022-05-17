@@ -15,127 +15,153 @@
 
 </head>
 
-<body class="pageLayout">
+<body class="container-full">
   <header class="header">
-    <img src="./img/marca.svg" alt="Marca Lobo">
+    <img src="./img/marca.svg" alt="Lobo Logo">
+
     <nav>
-      <ul class="header-menu">
-        <li><a href="#intro">Experiência</a></li>
-        <li><a href="#exp">Formação</a></li>
-        <li><a href="#cont">Contato</a></li>
+      <ul class="navegation">
+        <li class="navegation-bttn"><a href="#exp">Experiência</a></li>
+        <li class="navegation-bttn"><a href="#graduation">Formação</a></li>
+        <li class="navegation-bttn"><a href="#contact">Contato</a></li>
       </ul>
     </nav>
   </header>
 
-
   <main>
+    <section class="box-intro">
+      <img src="./img/perfil.jpg" alt="Foto de um Lobo" class="box-intro-img">
+      <article class="intro-main">
+        <h1 class="intro-title">Desenvolvedor Front End & UX/UI Designer</h1>
+        <p class="intro-location">Localizado no Rio de Janeiro</p>
+      </article>
+    </section>
 
-    <article id="intro" class="introduction">
-      <img src="./img/perfil.jpg" alt="Imagem de um Lobo" width="300px">
-      <section class="introduciton-profile">
-        <img class="profile-detail" src="./img/detalhe.svg" alt="Detalhe da Introdução">
-        <h1 class="profile-title">Desenvolvedor Front End & UX/UI Designer</h1>
-        <p class="profile-location">Localizado no Rio de Janeiro</p>
-      </section>
-    </article>
-
-
-    <article id="exp" class="experience">
-
-      <!-- Resumo da Experiências -->
-
-      <h2 class="experience-title">Experiência</h2>
-
-      <section class="experience-description">
-        <p class="experience-description-resume">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas
-          <b>HTML</b>, <b>CSS</b> e <b>JavaScript</b>. Para aplicatiovs web como a rede social Dogs eu trabalhei no
-          <b>UX</b> e <b>UI Design</b> do projeto.
+    <section id="exp" class="box-exp">
+      <h2 class="exp-title">Experiência</h2>
+      <article class="exp-desc">
+        <p class="exp-desc-resume">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <b>HTML</b>,
+          <b>CSS</b> e <b>JavaScript</b>.
+          Para aplicativos web como a rede social Dogs eu trabalhei no <b>UX</b> e <b>UI Design</b> do projeto.
         </p>
+        <ul class="exp-topics">
 
-        <!-- Tópicos das Experiências-->
-
-        <section class="grid-topics-experience">
-
-          <!-- primeira experiências -->
-
-          <h3 class="topics-experience-year">2045</h3>
-
-          <div class="topics-experience-description">
-            <h3>Bikcraft</h3>
-            <h3>Desenvolvedor Júnior</h3>
-            <p class="dess">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para
-              aplicativos web como a rede social Dogs eu trabalhei no UX e UI Design do projeto</p>
-            <ul class="topics-experience-hab">
-              <li class="topics-experience-hab-2">HTML</li>
-              <li class="topics-experience-hab-2">CSS</li>
-              <li class="topics-experience-hab-2">JavaScript</li>
-              <li class="topics-experience-hab-2">UX Design</li>
-              <li class="topics-experience-hab-2">UI Design</li>
+          <!-- bikcraft -->
+          <li class="exp-topics-content">
+            <!-- <h3 class="content-year">2045</h3> -->
+            <h3 class="content-title">Bikcraft</h3>
+            <h3 class="content-title">Desenvolvedor Júnior</h3>
+            <p class="content-desc">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e
+              JavaScript. Para aplicativos
+              web como a rede social Dogs eu trabalhei no UX e UI Design do projeto.</p>
+            <ul class="content-hab">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>UX Design</li>
+              <li>UI Design</li>
             </ul>
-          </div>
+          </li>
 
 
-          <!-- segunda experiência -->
-
-          <h3 class="topics-experience-year">2044-45</h3>
-
-          <div class="topics-experience-description">
-            <h3>Surfbot</h3>
-            <h3>Estagiário</h3>
-            <p class="dess">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para
-              aplicativos web como a rede social Dogs eu trabalhei no UX e UI Design do projeto</p>
-            <ul class="topics-experience-hab">
-              <li class="topics-experience-hab-2">HTML</li>
-              <li class="topics-experience-hab-2">CSS</li>
-              <li class="topics-experience-hab-2">JavaScript</li>
+          <!-- Surfbot -->
+          <li class="exp-topics-content">
+            <!-- <h3 class="content-year">2045</h3> -->
+            <h3 class="content-title">Sufrbot</h3>
+            <h3 class="content-title">Estagiário</h3>
+            <p class="content-desc">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e
+              JavaScript. Para aplicativos
+              web como a rede social Dogs eu trabalhei no UX e UI Design do projeto.</p>
+            <ul class="content-hab">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
             </ul>
-          </div>
+          </li>
 
+          <!-- Brafé -->
 
-
-
-          <!-- terceira experiências -->
-
-          <h3 class="topics-experience-year">2044</h3>
-
-          <div class="topics-experience-description">
-            <h3>Brafé</h3>
-            <h3>Voluntário</h3>
-            <p class="dess">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript.
-              Para
-              aplicativos web como a rede social Dogs eu trabalhei no UX e UI Design do projeto</p>
-            <ul class="topics-experience-hab">
-              <li class="topics-experience-hab-2">Email Marketing</li>
-              <li class="topics-experience-hab-2">HTML</li>
-              <li class="topics-experience-hab-2">UX Design</li>
-              <li class="topics-experience-hab-2">UI Design</li>
+          <li class="exp-topics-content">
+            <!-- <h3 class="content-year">2045</h3> -->
+            <h3 class="content-title">Brafé</h3>
+            <h3 class="content-title">Voluntário</h3>
+            <p class="content-desc">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e
+              JavaScript. Para aplicativos
+              web como a rede social Dogs eu trabalhei no UX e UI Design do projeto.</p>
+            <ul class="content-hab">
+              <li>Email Marketing</li>
+              <li>HTML</li>
+              <li>UX Design</li>
+              <li>UI Design</li>
             </ul>
-          </div>
+          </li>
+        </ul>
+      </article>
+    </section>
 
+    <section id="graduation" class="box-graduation">
+      <h2 class="graduation-title">Formação</h2>
+      <article class="graduation-desc">
+        <p>Minha mais recente experiência acadêmica foi o <b>mestrado</b> que fiz no exterior em <b>UX Design</b>. Além
+          disso me mantenho sempre atualizado com cursos intensiovos online</p>
+        <ul>
+          <li>
+            <h4>Bacharel</h4>
+            <h3>Administração de empresas</h3>
+            <p>UFRRJ</p>
+          </li>
 
+          <li>
+            <h4>Tecnológo</h4>
+            <h3>Design Digital</h3>
+            <p>Infnet</p>
+          </li>
 
+          <li>
+            <h4>Mestre</h4>
+            <h3>User Experience Design</h3>
+            <p>UCLL</p>
+          </li>
+        </ul>
 
-        </section>
+        <ul>
+          <li>
+            <h3>Curso Intensivos</h3>
+            <p>UX Design & UI Design</p>
+            <p>56h</p>
+            <p>Front End para Iniciantes</p>
+            <p>72h</p>
+          </li>
 
-
-      </section>
-    </article>
-
-
-
-
-
-
-
-
-
-
-    <article id="edu" class="education"></article>
-
+          <!-- Fazer a barra que separa os códigos com o pseudo classe -->
+          <li>
+            <h3>Idiomas</h3>
+            <p>Inglês</p>
+            <p>Fluente</p>
+            <p>Espanhol</p>
+            <p>Intermediário</p>
+          </li>
+        </ul>
+      </article>
+    </section>
   </main>
 
-  <footer id="cont" class=contact></footer>
-
+  <footer id="contact">
+    <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa</p>
+    <h4>
+      <ul>
+        <li>lobo@gmail.com</li>
+        <li>+55 21 9999-9999</li>
+        <li>@origamid.cursos</li>
+      </ul>
+      <p>Lobo. Alguns direitos reservados.</p>
+    </h4>
+  </footer>
 </body>
 
 </html>
+
+
+<!-- Anotações -->
+
+<!-- Colocar todos os elementos principais dentro de um mesmo grid para que se tenha um espaçamento semelhante -->

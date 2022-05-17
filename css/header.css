@@ -1,19 +1,18 @@
 .header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
 }
 
-.header-menu {
+.navegation {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  justify-content: end;
-  margin-top: 40px;
 }
 
-.header-menu li {
+.navegation-bttn {
   font-size: 1.125rem;
   color: #141414;
-  font-weight: 400;
 }
