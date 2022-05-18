@@ -1,18 +1,17 @@
 .header {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
-  margin-bottom: 80px;
+  align-items: center;
+  padding: 20px 140px;
 }
 
 .navegation {
   display: flex;
-  flex-wrap: wrap;
   gap: 40px;
 }
 
 .navegation-bttn {
   font-size: 1.125rem;
+  padding: 10px 20px;
   color: #141414;
 }

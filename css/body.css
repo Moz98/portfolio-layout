@@ -1,3 +1,6 @@
+/* - TENTAR USAR A METODOLOGIA DE OOCSS */
+
+
 /* INTRODUCTION */
 .box-intro {
   display: grid;
@@ -123,7 +126,7 @@
 }
 
 
-/* GRADUATION */
+/* | GRADUATION */
 
 .box-graduation {
   display: grid;

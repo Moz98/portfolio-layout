@@ -8,14 +8,19 @@
 
 @import "./footer.css";
 
-/* General Definitions */
+@import "./media.css";
+/* GENERAL DEFINITIONS */
 
 body {
   font-family: 'Fira Sans', sans-serif;
+  color: #525252;
 }
 
-.container-full {
-  display: grid;
-  grid-template-rows: auto 1fr 1fr;
-  margin: 40px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+
+
+/* || MEDIA QUERIES */
