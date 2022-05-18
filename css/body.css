@@ -121,3 +121,82 @@
   padding: 5px 10px;
   display: flex;
 }
+
+
+/* GRADUATION */
+
+.box-graduation {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 118px;
+  margin-top: 180px;
+  color: #a3a3a3;
+  /* background-color: #141414; */
+}
+
+
+.white-bold {
+  color: #fff;
+}
+
+
+.graduation-courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  position: relative;
+}
+
+
+
+/* .graduation-courses li> *::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 4px;
+  background-color: #b6f829;
+  left: -4px;
+  top: 50px;
+  border-radius: 1px;
+} */
+
+.graduation-courses li {
+  padding: 20px;
+  background-color: #090909;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.graduation-courses li h3 {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+
+.graduation-courses li h4,
+.graduation-courses li p {
+  color: #a3a3a3;
+}
+
+.graduation-extra {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+  margin-bottom: 120px;
+}
+
+.graduation-extra li {
+  display: grid;
+  gap: 30px;
+}
+
+.cursos-intensivos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.idioma {
+  display: flex;
+  gap: 10px;
+}
