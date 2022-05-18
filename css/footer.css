@@ -1,0 +1,12 @@
+footer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  place-self: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer p {
+  word-break: break-all;
+  text-align: center;
+}
