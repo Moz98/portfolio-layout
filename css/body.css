@@ -1,41 +1,11 @@
 /* - TENTAR USAR A METODOLOGIA DE OOCSS */
 
-
-/* INTRODUCTION */
-.box-intro {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 140px;
-  align-items: center;
-  margin-bottom: 120px;
-}
-
-.box-intro img {
-  width: 360px;
-}
-
-.intro-main {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.intro-title {
-  font-size: 4.5rem;
-  font-weight: bold;
-  justify-self: start;
-}
-
-.intro-location {
-  font-size: 1.5rem;
-  color: #525252;
-}
-
-
 /* EXPERINCE */
 
 .box-exp {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
@@ -65,13 +35,9 @@
 }
 
 .exp-topics {
-  gap: 20px;
-}
-
-.exp-topics-content {
   display: flex;
   flex-direction: column;
-  justify-items: space-between;
+  gap: 20px;
 }
 
 .exp-topics-content::before {
@@ -79,7 +45,7 @@
   position: absolute;
   height: 20px;
   width: 4px;
-  background-color: #b6f829;
+  background: linear-gradient(180deg, #b6f829, #67dd0a);
   left: -5px;
   top: 20px;
   border-radius: 1px;
@@ -95,8 +61,6 @@
   padding: 20px;
   position: relative;
 }
-
-
 
 .content-title {
   font-size: 1.125rem;
@@ -120,18 +84,21 @@
 
 .content-hab li {
   background-color: #ffff;
+  align-items: center;
   border-radius: 5px;
   padding: 5px 10px;
-  display: flex;
 }
 
 
 /* | GRADUATION */
 
 .box-graduation {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 40px;
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 118px;
+  /* gap: 118px; */
   margin-top: 180px;
   color: #a3a3a3;
   /* background-color: #141414; */
@@ -145,9 +112,8 @@
 
 .graduation-courses {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  position: relative;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 0.5rem;
 }
 
 
@@ -165,7 +131,7 @@
 
 .graduation-courses li {
   padding: 20px;
-  background-color: #090909;
+  /* background-color: #090909; */
   border: 1px solid #000;
   border-radius: 5px;
 }

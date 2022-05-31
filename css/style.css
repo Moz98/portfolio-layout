@@ -6,21 +6,28 @@
 
 @import "./body.css";
 
+@import "./intro.css";
+
+@import "./exp.css";
+
 @import "./footer.css";
 
 @import "./media.css";
-/* GENERAL DEFINITIONS */
+
+
+/* || GENERAL DEFINITIONS ||*/
 
 body {
   font-family: 'Fira Sans', sans-serif;
   color: #525252;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+.subtitle {
+  font-size: 9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 4ch;
+  color: #E0e0e0;
+  word-break: break-all;
+  grid-row: 1 / -1;
 }
-
-
-
-/* || MEDIA QUERIES */

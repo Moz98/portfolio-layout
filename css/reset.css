@@ -33,6 +33,10 @@ ul {
   margin: 0px;
 }
 
+li {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   color: #141414;
@@ -40,5 +44,6 @@ a {
 
 img {
   max-width: 100%;
+  object-fit: cover;
   display: block;
 }

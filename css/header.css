@@ -1,4 +1,7 @@
 .header {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,4 +17,24 @@
   font-size: 1.125rem;
   padding: 10px 20px;
   color: #141414;
+}
+
+
+/* || MEDIA || */
+
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navegation {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navegation-bttn {
+    background-color: #c4c4c4;
+    border-radius: 5px;
+  }
 }
