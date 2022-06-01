@@ -1,0 +1,115 @@
+/* - TENTAR USAR A METODOLOGIA DE OOCSS */
+.white-bold {
+  font-weight: 700;
+  color: #fff;
+}
+
+
+.box-graduation {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: start;
+  column-gap: 106px;
+  margin-top: 180px;
+  /* background-color: #141414; */
+}
+
+.box-graduation .subtitle {
+  max-width: 8ch;
+  font-size: 8rem;
+  color: #000000;
+}
+
+.graduation-formation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px
+}
+
+.formation-block {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 5px;
+  border: 1px;
+}
+
+.formation-type {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.formation-type::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 4px;
+  background: linear-gradient(180deg, #b6f829, #67dd0a);
+  left: -24px;
+  top: 30px;
+  border-radius: 1px;
+}
+
+.formation-course {
+  color: #fff;
+  font-size: 1.125rem;
+  margin-bottom: 50px;
+}
+
+.formation-school {
+  font-size: 1.125rem;
+  color: #a3a3a3;
+}
+
+.courses-title::before {
+  content: "";
+  position: absolute;
+  background: url("../img/cursos.svg");
+  top: 20px;
+}
+
+.courses-title {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  color: #8f8f8f;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.courses-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-program {
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+.lang::before {
+  content: "";
+  position: absolute;
+  background: url("../img/idiomas.svg");
+  top: 20px;
+}
+
+.eng::after,
+.esp::after {
+  content: " / Fluente";
+  color: #8f8f8f;
+  font-size: 1.125rem;
+  justify-content: none;
+}
