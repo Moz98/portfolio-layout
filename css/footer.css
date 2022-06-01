@@ -1,12 +1,44 @@
-footer {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  place-self: center;
-  padding: 0px;
-  margin: 0px;
+.background-footer {
+  background-color: #000000;
 }
 
-footer p {
-  word-break: break-all;
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
   text-align: center;
+  column-gap: 106px;
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  display: block;
+  background: url("../img/detalhe.svg") no-repeat;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -40px;
+  top: -60px;
+}
+
+.bye {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #cccccc;
+  text-align: left;
+  max-width: 30ch;
+}
+
+.contact {
+  font-size: 3rem;
+}
+
+.min-footer {
+  font-size: 1.125rem;
+  color: #8f8f8f;
+  text-align: left;
 }

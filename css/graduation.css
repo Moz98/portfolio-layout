@@ -4,6 +4,9 @@
   color: #fff;
 }
 
+.background-graduation {
+  background-color: #141414;
+}
 
 .box-graduation {
   max-width: 1200px;
@@ -14,7 +17,7 @@
   align-content: start;
   column-gap: 106px;
   margin-top: 180px;
-  /* background-color: #141414; */
+
 }
 
 .box-graduation .subtitle {
@@ -71,12 +74,16 @@
 .courses-title::before {
   content: "";
   position: absolute;
-  background: url("../img/cursos.svg");
-  top: 20px;
+  background: url("../img/cursos.svg") no-repeat center center;
+  width: 24px;
+  height: 24px;
+  top: -6px;
+  left: -36px;
 }
 
 .courses-title {
   text-transform: uppercase;
+  text-justify: center;
   font-size: 0.875rem;
   color: #8f8f8f;
   margin-bottom: 30px;
@@ -99,16 +106,29 @@
   color: #fff;
 }
 
+.graduation-lang {
+  margin-bottom: 100px;
+}
+
 .lang::before {
   content: "";
   position: absolute;
-  background: url("../img/idiomas.svg");
-  top: 20px;
+  background: url("../img/idiomas.svg") no-repeat center center;
+  width: 24px;
+  height: 24px;
+  top: -6px;
+  left: -36px;
 }
 
-.eng::after,
-.esp::after {
+.eng::after {
   content: " / Fluente";
+  color: #8f8f8f;
+  font-size: 1.125rem;
+  justify-content: none;
+}
+
+.esp::after {
+  content: " / Intermerdiário";
   color: #8f8f8f;
   font-size: 1.125rem;
   justify-content: none;
