@@ -1,16 +1,17 @@
 .background-footer {
   background-color: #000000;
+  padding: 60px 0;
 }
 
 .footer {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 0 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
   text-align: center;
-  column-gap: 106px;
+  column-gap: 270px;
   position: relative;
 }
 
@@ -22,7 +23,7 @@
   width: 200px;
   height: 200px;
   left: -40px;
-  top: -60px;
+  top: -120px;
 }
 
 .bye {
@@ -41,4 +42,50 @@
   font-size: 1.125rem;
   color: #8f8f8f;
   text-align: left;
+}
+
+/* || MEDIA ||  */
+
+@media (max-width: 1300px) {
+  .footer::before {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-items: center;
+  }
+
+  .bye {
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .bye {
+    font-size: 1rem;
+    max-width: 60ch;
+    text-align: left;
+  }
+
+  .contact {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .flex-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: space-between;
+  }
+
+  .min-footer {
+    font-size: 0.875rem;
+  }
 }

@@ -1,7 +1,7 @@
 .box-intro {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 0 40px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 140px;
@@ -56,5 +56,31 @@
     left: -30px;
     bottom: auto;
     right: auto;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .intro-title {
+    text-align: left;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .intro-title::before {
+    display: none;
+  }
+
+  .profile-photo {
+    display: none;
+  }
+
+  .intro-title {
+    font-size: 3rem;
+  }
+
+  .intro-location {
+    font-size: 1rem;
   }
 }
