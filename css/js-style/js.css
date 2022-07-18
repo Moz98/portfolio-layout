@@ -1,0 +1,8 @@
+.js .header {
+  position: sticky;
+  top: 20px;
+  background-color: #52525280;
+  border-radius: 4px;
+  z-index: 1;
+
+}

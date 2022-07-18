@@ -13,14 +13,18 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
 
+  <script>
+    document.documentElement.className += ' js';
+  </script>
+
 </head>
 
 <body class="container">
 
   <header class="header">
-    <img src="./img/marca.svg" alt="Lobo Logo">
+    <a href="./"><img src="./img/marca.svg" alt="Lobo Logo"></a>
 
-    <nav>
+    <nav class="js-menu">
       <ul class="navegation">
         <li class="navegation-bttn"><a href="#exp">Experiência</a></li>
         <li class="navegation-bttn"><a href="#graduation">Formação</a></li>
@@ -167,6 +171,8 @@
       <p class="min-footer">Lobo. Alguns direitos reservados.</p>
     </footer>
   </div>
+
+  <script src="./scripts/smoothScroll-script.js"></script>
 </body>
 
 </html>
