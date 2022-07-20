@@ -1,8 +1,28 @@
-.js .header {
+.js .header.fixed-menu {
   position: sticky;
-  top: 20px;
-  background-color: #52525280;
+  top: 0px;
+  padding: 20px 140px;
+  background-color: #000000;
   border-radius: 4px;
   z-index: 1;
+  animation: slideDown 0.5s;
+}
 
+.js .header.fixed-menu img {
+  background-color: #ffffff30;
+  padding: 10px 20px;
+}
+
+.js .header.fixed-menu .navegation a {
+  color: white;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

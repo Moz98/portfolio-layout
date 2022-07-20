@@ -11,7 +11,6 @@ function initScroll() {
         behavior: 'smooth',
         block: 'start',
       })
-      console.log(href);
 
     }
     menuList.forEach((internLink) => {
@@ -19,6 +18,19 @@ function initScroll() {
     })
   }
 }
+initScroll();
 
+function initNavFixed() {
 
-// fucntion initNavFixed() {}
+  const menuSelector = document.querySelector('.header');
+
+  if (menuSelector) {
+    function stickyMenu() {
+      menuSelector.classList.toggle('fixed-menu', window.scrollY > 0);
+    }
+
+    window.addEventListener('scroll', stickyMenu);
+
+  }
+}
+initNavFixed();
